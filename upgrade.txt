@@ -1,0 +1,20 @@
+step 1
+we have to create an {app} directory in the projects directory
+step 2
+go to the next.config.js and change the file with this 
+
+/** @type {import('next').NextConfig} */
+module.exports = {
+  reactStrictMode: true,
+  experimental: {
+    appDir: true,
+  },
+};
+
+and restart the application
+
+step 3
+if you are using the tailwind then add the {app} directory path to the content
+
+step 4
+create page.tsx file in app directory and delete the index.tsx file from pages
